@@ -1,6 +1,6 @@
 def singleNumber(nums) -> int:
     l=len(nums)
-    a=nums[0]
+    a=0
     for i in range(1,l):
         a=a^nums[i]
     return a
